@@ -1,0 +1,15 @@
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\bin\Debug\DolgozatProject.exe.config
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\bin\Debug\DolgozatProject.exe
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\bin\Debug\DolgozatProject.pdb
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject.csprojAssemblyReference.cache
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\MainWindow.g.cs
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\App.g.cs
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject_MarkupCompile.cache
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject_MarkupCompile.lref
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\MainWindow.baml
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject.g.resources
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject.Properties.Resources.resources
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject.csproj.GenerateResource.cache
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject.exe
+D:\VisualStudioProjects\DolgozatPM\DolgozatProject\DolgozatProject\obj\Debug\DolgozatProject.pdb

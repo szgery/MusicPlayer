@@ -1,0 +1,41 @@
+﻿<Window x:Class="DolgozatProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DolgozatProject"
+        mc:Ignorable="d"
+        Title="Music Player by Szergely" Height="337.186" Width="357.186" Icon="minecraft.ico" WindowStyle="ThreeDBorderWindow" ResizeMode="CanMinimize" ShowInTaskbar="False">
+    <Grid Margin="0,0,4,2">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="Yellow"/>
+                <GradientStop Color="#FF00AEFF" Offset="0.953"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Slider x:Name="playTimer" HorizontalAlignment="Left" Margin="10,278,0,0" VerticalAlignment="Top" Width="260" Height="18" ValueChanged="playTimer_ValueChanged" LostMouseCapture="playTimer_lost"/>
+        <Button x:Name="buttonPlay" Content="▶️" HorizontalAlignment="Left" Height="30" Margin="84,229,0,0" VerticalAlignment="Top" Width="33" Click="buttonPlay_Click" FontSize="14"/>
+        <Button x:Name="frwd" Content="&gt;&gt;" HorizontalAlignment="Left" Height="30" Margin="214,229,0,0" VerticalAlignment="Top" Width="33" Click="frwd_Click" FontWeight="Bold"/>
+        <Button x:Name="prev" Content="&lt;&lt;" HorizontalAlignment="Left" Height="30" Margin="26,229,0,0" VerticalAlignment="Top" Width="33" Click="prev_Click" FontSize="14" FontWeight="Bold"/>
+        <Button x:Name="buttonPause" Content="||" HorizontalAlignment="Left" Height="30" Margin="155,229,0,0" VerticalAlignment="Top" Width="33" Click="buttonPause_Click" FontSize="14" FontWeight="Bold"/>
+        <Button x:Name="buttonOpenAudio" Content="🎵" HorizontalAlignment="Left" Height="21" Margin="10,10,0,0" VerticalAlignment="Top" Width="23" Click="buttonOpenAudio_Click" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Label x:Name="libStat" Content="Not playing..." HorizontalAlignment="Left" Height="27" Margin="97,259,0,0" VerticalAlignment="Top" Width="130" Cursor="Arrow" Foreground="White"/>
+        <Slider x:Name="volumeSlider" Margin="210,120,-39,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" ValueChanged="volumeSlider_ValueChanged" Value="0.5" Maximum="1" IsDirectionReversed="True" Background="{x:Null}" BorderBrush="{x:Null}" Height="24" Foreground="Black">
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <ListBox x:Name="listBoxWrite" HorizontalAlignment="Left" Height="188" Margin="10,36,0,0" VerticalAlignment="Top" Width="260" Background="{x:Null}" Foreground="#FFB40000" BorderBrush="Black"/>
+        <Button x:Name="delete" Content="🗑️" HorizontalAlignment="Left" Height="21" Margin="245,10,0,0" VerticalAlignment="Top" Width="25" Opacity="0.8" Click="delete_Click" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Button x:Name="save" Content="💾" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" Margin="38,11,0,0" Click="save_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button x:Name="load" Content="📁" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="64,11,0,0" Click="load_Click" Background="{x:Null}" BorderBrush="{x:Null}"/>
+    </Grid>
+</Window>
